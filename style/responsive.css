@@ -1,0 +1,17 @@
+@media (max-width: 720px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-top: 5px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .description {
+    width: 50%;
+  }
+}
